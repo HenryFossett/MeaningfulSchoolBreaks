@@ -1,0 +1,146 @@
+html{
+    background-color: #d4dff8;
+}
+header{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    color: #2c7ead;
+    font-weight: bold;
+}
+@media only screen and (max-width: 576px){
+    header{
+        font-size: 0.3rem;
+    }
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1.1fr 5fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: #d4dff8;
+    padding: 10px;
+}
+
+.grid > .col-1 {
+    grid-column: 1;
+    grid-row: 0 / span 2;
+}
+
+.grid > .col-2 {
+    grid-column: 2;
+    grid-row: 0 / span 1;
+}
+video{
+    max-height: 300px;
+    max-width: 300px;
+    border: 6px #2d88bb solid;
+    margin: 10px;
+    display: flex;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.col-1{
+    text-align: center;
+    border: 2px solid rgba(228, 223, 131, 0.4);
+}
+button{
+    width: 250px;
+    height: 40px;
+    background-color: #2d88bb;
+    border-radius: 8px;
+    box-shadow: 6px 6px 1px rgba(233, 228, 129, 0.6);
+    margin-bottom: 20px;
+    border: #3188bc;
+    cursor: pointer;
+    background: linear-gradient(to right, #c5c496, #3188bc);
+}
+.col-2 > button {
+    margin-top: 10px;
+}
+button > a{
+    color: rgba(247, 240, 240, 0.884);
+}
+.col-2{
+    border: 2px solid rgba(228, 223, 131, 0.4);
+    text-align: center;
+}
+.col-2 > h2{
+    text-align: center;
+}
+.col-2 > .highlights{
+    text-align: center;
+}
+.highlights > h3{
+    color: #3188bc;
+}
+h3{
+    font-family: 'Arvo', serif;
+}
+h2{
+    font-family: 'Arvo', serif;
+}
+.teacher > h2{
+    text-align: center;
+}
+.teacher{
+    border: 2px solid rgba(228, 223, 131, 0.4);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.posters > h2{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    max-height: 300px;
+    margin-bottom: 5px;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+#grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* if i get a 3rd tesitmonial add another column */
+    grid-gap: 10px; 
+}
+#grid-item2{
+    text-align: left;
+    margin: 20px;
+}
+p{
+    font-family: 'Arvo', serif;
+    line-height: 25px;
+}
+.col-2 > a {
+    color:black;
+}
+a:visited {
+    color:black;
+}
+.argument{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.emailBtn{
+    margin-top: 70px;
+}
+#grid-item2 > p{
+    font-size: 1rem;
+}
+h4{
+    color: #2d88bb;
+}
+#more-info{
+    color: whitesmoke;
+}
